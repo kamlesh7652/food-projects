@@ -11,6 +11,7 @@ html{
     font-weight: 300;
     font-size: 20px;
     text-rendering: optimizeLegibility;
+    overflow-x: hidden;
 }
 .row{
     max-width: 1140px;
@@ -192,38 +193,7 @@ h3{
 }
 
 
-@media only screen and (max-width: 768px) {
-    /* Center the logo and nav on mobile */
-    .logo {
-        float: none;
-        display: block;
-        margin: 20px auto;
-    }
 
-    .main-nav {
-        float: none;
-        text-align: center;
-        margin-top: 20px;
-    }
-
-    .main-nav li {
-        display: block; /* Stack menu items vertically */
-        margin: 10px 0;
-    }
-
-    /* Scale down the hero text */
-    .hero-text-box {
-        width: 100%;
-        padding: 0 5%;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    }
-
-    h1 {
-        font-size: 180%; /* Smaller text for mobile */
-    }
-}
 
 .meals-showcase{
     list-style: none;
